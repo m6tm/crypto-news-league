@@ -21,5 +21,5 @@ export async function generateMetadata(
 }
 
 export default function Page({ params, searchParams }: Props) {
-        return <h1 className='underline'>Welcome home !!!</h1>
+        return <h1 className='underline font-extrabold hover:text-orange-600'>Welcome home !!!</h1>
 }

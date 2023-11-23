@@ -1,6 +1,7 @@
 import React from "react";
 import type { Metadata } from 'next'
 import { config } from 'dotenv'
+import './globals.css'
 
 config()
 
