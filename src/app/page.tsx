@@ -17,12 +17,9 @@ export async function generateMetadata(
 
         return {
                 ...product,
-                openGraph: {
-                        images: ['/logo.jpg', ...previousImages],
-                },
         }
 }
 
 export default function Page({ params, searchParams }: Props) {
-        return <h1>Welcome home !!!</h1>
+        return <h1 className='underline'>Welcome home !!!</h1>
 }
